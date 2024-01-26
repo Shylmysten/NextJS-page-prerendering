@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import useSWR from "swr";
 
 function LastSalesPage(props) {
-    console.log(props.sales);
+
     const [sales, setSales] = useState(props.sales);
     //const [isLoading, setIsLoading] = useState(false);
 
